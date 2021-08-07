@@ -1,0 +1,16 @@
+// /*  Light Mode (Default)  */
+// :root {
+//   --background-color-primary: #{$light-bg-color-primary};
+//   --background-color-secondary: #{$light-bg-color-secondary};
+//   --accent-color: #{$light-accent-color};
+//   --text-primary-color: #{$light-text-primary-color};
+//   --element-size: 4rem;
+// }
+
+[theme="light"] {
+  --background-color-primary: #{$light-bg-color-primary};
+  --background-color-secondary: #{$light-bg-color-secondary};
+  --accent-color: #{$light-accent-color};
+  --text-primary-color: #{$light-text-primary-color};
+  --element-size: 4rem;
+}

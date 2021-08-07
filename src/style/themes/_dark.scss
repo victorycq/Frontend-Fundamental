@@ -1,0 +1,16 @@
+// /*   Dark Mode    */
+// :root.dark-theme {
+//   --background-color-primary: #{$dark-bg-color-primary};
+//   --background-color-secondary: #{$dark-bg-color-secondary};
+//   --accent-color: #{$dark-accent-color};
+//   --text-primary-color: #{$dark-text-primary-color};
+//   --element-size: 4rem;
+// }
+
+[theme="dark"] {
+  --background-color-primary: #{$dark-bg-color-primary};
+  --background-color-secondary: #{$dark-bg-color-secondary};
+  --accent-color: #{$dark-accent-color};
+  --text-primary-color: #{$dark-text-primary-color};
+  --element-size: 4rem;
+}
