@@ -1,0 +1,45 @@
+.login__container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color-secondary);
+  height: 100%;
+  padding: 6rem 8rem;
+}
+.login__form {
+  width: 35%;
+  background-color: var(--background-color-primary);
+  padding: 2rem 4rem;
+}
+.login__content {
+  width: 65%;
+  background-color: var(--accent-color);
+  padding: 2rem 4rem;
+}
+.login__option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.login__button {
+  margin-bottom: 1.25rem;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
