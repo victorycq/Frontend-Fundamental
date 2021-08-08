@@ -1,11 +1,16 @@
-/*  Light Mode   */
-$light-bg-color-primary: #ebebeb;
-$light-bg-color-secondary: #fafafa;
-$light-accent-color: #cacaca;
-$light-text-primary-color: #222;
+/*  Light Mode (Default)   */
+$light-bg-color-primary: #ffffff;
+$light-bg-color-secondary: #e5e5e5;
+$light-accent-color: #fca311;
+$light-text-primary-color: #000000;
 
 /*  Dark Mode   */
-$dark-bg-color-primary: #1e1e1e;
-$dark-bg-color-secondary: #2d2d30;
-$dark-accent-color: #3f3f3f;
-$dark-text-primary-color: #ddd;
+$dark-bg-color-primary: #000000;
+$dark-bg-color-secondary: #14213d;
+$dark-accent-color: #fca311;
+$dark-text-primary-color: #ffffff;
+
+/*  Alert Colors  */
+$danger: #e12162;
+$success: #00e779;
+$warning: #ffc107;
