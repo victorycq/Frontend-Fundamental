@@ -1,39 +1,56 @@
-.login__container {
+#login {
   display: flex;
   justify-content: center;
   background-color: var(--background-color-secondary);
   height: 100%;
-  padding: 6rem 8rem;
+  padding: 2rem 4rem;
+
+  @include for-phone-only {
+    width: 100%;
+    padding: 0;
+  }
 }
 .login__form {
-  width: 35%;
+  width: 60%;
   background-color: var(--background-color-primary);
-  padding: 2rem 4rem;
+  padding: 2rem 8rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  @include for-phone-only {
+    width: 100%;
+    padding: 3rem 3rem;
+  }
 }
 .login__content {
-  width: 65%;
+  width: 40%;
   background-color: var(--accent-color);
+  // background-image: url("../assets/img/illustration/code_review.svg");
   padding: 2rem 4rem;
+
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+
+  @include for-phone-only {
+    display: none;
+  }
 }
 .login__option {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.25rem;
-}
-.login__button {
-  margin-bottom: 1.25rem;
 }
 .separator {
   display: flex;
   align-items: center;
   text-align: center;
+  color: #b3b3b3;
 }
 
 .separator::before,
 .separator::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #b3b3b3;
 }
 
 .separator:not(:empty)::before {
