@@ -1,0 +1,36 @@
+.button {
+  padding: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  * {
+    vertical-align: middle;
+  }
+  &__prepend {
+    margin-right: 1rem;
+  }
+  &__append {
+    margin-left: 1rem;
+  }
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  &--blue {
+    background-color: #3863f2;
+  }
+  &--white {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #bdbdbd;
+  }
+  &--w-100 {
+    width: 100%;
+  }
+  &--w-50 {
+    width: 100%;
+  }
+}
