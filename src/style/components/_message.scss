@@ -1,0 +1,13 @@
+.message {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  &__success {
+    color: $success;
+  }
+  &__warning {
+    color: $warning;
+  }
+  &__error {
+    color: $danger;
+  }
+}
